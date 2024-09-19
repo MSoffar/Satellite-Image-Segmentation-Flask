@@ -99,20 +99,6 @@ The application will be available at [http://127.0.0.1:5000/](http://127.0.0.1:5
 - The model was trained for water segmentation on images with 12 input channels, such as satellite or aerial imagery.
 - The classifier (decoder) was custom-built to fit the specific needs of the project.
 
-## Troubleshooting
-
-### Common Errors
-
-1. **"OrderedDict object has no attribute 'eval'"**: 
-   - This error occurs if you try to load the model incorrectly. Make sure you're using `model.load_state_dict()` and initializing the model architecture before loading the weights.
-
-2. **"Missing keys in state_dict"**: 
-   - This error occurs if the architecture of the saved model does not match the one you're trying to load. Ensure that the classifier architecture matches the saved model.
-
-### Debugging
-
-If you encounter issues, check the console output for any errors. Flask will provide useful information to debug.
-
 
 ### How to Use This `README.md`
 
