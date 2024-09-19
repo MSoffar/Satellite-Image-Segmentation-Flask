@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segmentation Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Segmentation Result</h1>
+        <div class="image-container">
+            <div class="image-box">
+                <h3>Original Image</h3>
+                <img src="{{ original_image }}" alt="Original Image">
+            </div>
+            <div class="image-box">
+                <h3>Predicted Mask</h3>
+                <img src="{{ predicted_image }}" alt="Predicted Mask">
+            </div>
+        </div>
+        <a href="/">Go back</a>
+    </div>
+</body>
+</html>
