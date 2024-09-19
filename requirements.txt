@@ -1,0 +1,6 @@
+
+Flask==2.2.2
+torch==1.12.1
+torchvision==0.13.1
+rasterio==1.2.10
+Pillow==9.0.1
