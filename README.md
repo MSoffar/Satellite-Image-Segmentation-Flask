@@ -119,5 +119,3 @@ If you encounter issues, check the console output for any errors. Flask will pro
 1. Replace any placeholder text (like `"https://github.com/MSoffar/Satellite-Image-Segmentation-Flask.git"`) with the appropriate links or information.
 2. If you plan to include a screenshot of your application, replace the `app_preview.png` with your actual screenshot or delete that section if you don't want it.
 3. Customize the "Model Details" section with any additional details relevant to your project.
-
-This `README.md` is structured to clearly explain your project, guide users through installation, and help them troubleshoot common issues. Let me know if you'd like further adjustments!
