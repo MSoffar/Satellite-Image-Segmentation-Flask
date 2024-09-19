@@ -86,7 +86,7 @@ The application will be available at [http://127.0.0.1:5000/](http://127.0.0.1:5
 
 ## Example
 
-![App Preview](preview.png) *(Replace this with a screenshot of your app)*
+![App Preview](static/app_preview.jpg)
 
 ## Customization
 
